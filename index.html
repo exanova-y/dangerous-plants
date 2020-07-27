@@ -1,0 +1,60 @@
+<!--this is still a work in progress, don't expect any functional buttons-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Backwards</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+	  <div class = "attic">
+	   <h1>Can You Write it Backwards?</h1>
+		<ul>
+			<a href = "challenge.html" >Challenge</a>
+		</ul>
+	  </div>
+
+
+	  <div class = "lobby">
+		  <div class = "room1">
+			  <script type ="text/javascript" src = "https://code.responsivevoice.org/responsivevoice.js"></script>
+			  <button class = "tv" onclick = "speak()">
+			  	<h1>Generate</h1>
+			  	</button>
+			  <form onsubmit ="return false">
+				  <label for = "answerlabel">Answer here</label> <br>
+				  	<input type ="text" onkeypress = "return letters_only(event)" id = "answerinput" maxlength = "10" style = "text-transform: uppercase" >
+				   	<!--change max length to a variable name -->
+				 	<button id ="submit" onclick = "check()">Submit</button>
+			  </form>
+			 <button id = "ra" onclick = "reveal()">reveal answer</button>
+			   <p id = "reveal"></p>
+			   </div>
+
+			 
+			  <div class = "desk">
+			  	<img src = "images/correct.png" id = "correct" width = "200px" style = "display: none;">
+				<img src = "images/wrong.png" id = "wrong" width = "200px" style = "display: none;">
+			  </div>
+
+
+		  
+		  <div class = "room2">
+			  <button>up</button>
+			  <button>down</button>
+		  </div>
+
+	  		<div class = "room3">
+				<h2 style = "font-weight: normal;
+				text-align: center;">How to Play:</h2>
+	   			<p>
+		   			 Listen to the letters and type them backwards as fast as you can. e.g. duesbf reversed is fbseud. Hit enter, or click the button to check your answer. 
+				</p>
+				
+			</div>
+	  </div>
+	
+    <script src="script.js"></script>
+  </body>
+</html>

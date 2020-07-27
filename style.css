@@ -1,0 +1,80 @@
+body{
+	font-family: Helvetica;
+}
+
+h1{
+	text-align: center;
+	color: indigo;
+	font-weight: normal;
+	width: 100%;
+	height: 20px;
+	padding: 10px;
+	vertical-align: middle;
+
+}
+
+button{
+	border-radius: 10px;
+	height: 30px;
+	display: block;
+	border-style: outset;
+	font-size: 13px;
+}
+
+input{
+	height: 50px;
+}
+
+ul{
+ 	height: 40px;
+	text-align: right;
+}
+
+.attic{
+	background-color: #f2d6ff;
+}
+
+.lobby{
+	display: table;
+	clear: both;
+	width: 100%;
+}
+
+.room1{
+	float: left;
+	width: 19%;
+	padding: 2%;
+	background-color: orange;
+}
+
+.tv{
+	width: 200px;
+	height: 200px;
+	background-color: #f2d6ff;
+	border: 2px solid blueviolet;
+	text-align: center;
+}
+
+.room2{
+	float: left;
+	width: 11%;
+	padding: 2%;
+	background-color: gold;
+}
+
+.room3{
+	float: left;
+	width: 31%;
+	padding: 2%;
+	background-color: yellow;
+
+}
+
+.desk{
+	float: left;
+	width: 20%;
+	height: auto;
+	padding: 2%;
+	background-color: coral;
+
+}
