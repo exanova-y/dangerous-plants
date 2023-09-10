@@ -1,0 +1,53 @@
+*{
+	font-family: Helvetica;
+
+}
+h1{
+	text-align: center;
+	background-color: lavender;
+	border-bottom: 3px solid mediumslateblue;
+	padding: 20px;
+}
+
+.name{
+	text-align: center;
+}
+
+.plant{
+	content: "";
+	display: table;
+	clear: both;  /* get rid of the floating that orders text from top to bottom*/
+	background-color: honeydew;
+	margin: 60px;
+	border: 3px solid aquamarine;
+	border-style: outset;
+}
+
+.center{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.box{
+	float: left;
+	width: 45%;
+	padding: 10px;
+	background-color: honeydew;
+
+}
+
+a:link, a:visited{
+	color: darkslategray;
+}
+
+a:hover, a:active{
+	color: darkcyan;
+	
+}
+
+.btn{
+	width: 100px;
+	height: 40px;
+	background-color: white;
+	border-radius: 200px;
+}
